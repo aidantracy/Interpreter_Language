@@ -1,0 +1,47 @@
+prog     : block 'EOF'
+
+block    : stmt ';' block
+         | stmt
+
+stmt     : assn
+         | decl
+         | 'rd' id
+         | 'wr' expr
+         | 'if' boolexpr 'then' stmt
+         | 'if' boolexpr 'then' stmt 'else' stmt
+         | 'while' boolexpr 'do' stmt
+         | 'begin' block 'end'
+         | id '(' expr ')' //call a function
+
+assn     : id '=' expr
+
+decl     : 'var' id
+         | 'var' id '=' expr
+         | 'def' id '(' id ')' 'begin' block 'end'
+
+expr     : term addop expr
+         | term
+
+term     : fact mulop term
+         | fact
+
+fact     : id
+         | num
+         | '(' expr ')'
+         | '-' fact
+         | id '(' expr ')' //call a function
+
+boolexpr : expr relop expr
+
+addop    : '+'
+         | '-'
+
+mulop    : '*'
+         | '/'
+
+relop    : '<'
+         | '<='
+         | '>'
+         | '>='
+         | '<>'
+         | '=='

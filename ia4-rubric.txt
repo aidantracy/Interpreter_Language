@@ -1,0 +1,95 @@
+Grade: 40/40
+
+Rubric for ia4:
+
+Overall Comments:
+
+-Submission
+
+    - all files that were required to complete the assignment
+    - a README.md file that has been completed
+
+
+Documentation:
+	-README.md has been updated with a new reflection: [5 points]
+
+    Your interpretation of the dangling else is correct, the closest matched pair. Its actually 
+    much harder to do it the other way around. 
+
+Automated Checks:
+
+	- EvaluationTest passes (I'll run mine too!) [35 points]
+
+    Great job! 
+
+commit 60fa197d33c648fa9a45d6bae48fdab2d8d82ca4
+Author: Aidan Tracy <aidantracy@u.boisestate.edu>
+Date:   Sat Oct 26 00:03:48 2024 -0600
+
+    Part 4 complete
+Grader Compile Passed
+1.0
+3.0
+1.6666666666666667
+10.0
+10.0
+1.0
+832040.0
+10.0
+8.3
+4.1
+3.0
+-2.0
+3.0
+10.0
+10.0
+1.0
+2.0
+0.0
+10.0
+10.0
+4.0
+╷
+├─ JUnit Jupiter ✔
+│  └─ Grader ✔
+│     ├─ testOperators() ✔
+│     ├─ testAssociation2() ✔
+│     ├─ testAssociation3() ✔
+│     ├─ testBoolGTE2() ✔
+│     ├─ testBoolLTE2() ✔
+│     ├─ testGCD() ✔
+│     ├─ testFib() ✔
+│     ├─ testBoolE() ✔
+│     ├─ testTwoRd() ✔
+│     ├─ testRd() ✔
+│     ├─ testAssociation() ✔
+│     ├─ testSyntaxError() ✔
+│     ├─ testIncrement() ✔
+│     ├─ testSyntaxError2() ✔
+│     ├─ testPrecedence() ✔
+│     ├─ testBoolGTE() ✔
+│     ├─ testBoolLTE() ✔
+│     ├─ testAssignment() ✔
+│     ├─ testIncrement2() ✔
+│     ├─ testBoolE2() ✔
+│     ├─ testBoolGT() ✔
+│     ├─ testBoolLT() ✔
+│     ├─ testEvalError() ✔
+│     └─ testNestedParens() ✔
+├─ JUnit Vintage ✔
+└─ JUnit Platform Suite ✔
+
+Test run finished after 67 ms
+[         4 containers found      ]
+[         0 containers skipped    ]
+[         4 containers started    ]
+[         0 containers aborted    ]
+[         4 containers successful ]
+[         0 containers failed     ]
+[        24 tests found           ]
+[         0 tests skipped         ]
+[        24 tests started         ]
+[         0 tests aborted         ]
+[        24 tests successful      ]
+[         0 tests failed          ]
+
